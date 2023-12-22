@@ -85,8 +85,8 @@ tr:nth-child(2) {
 }
 
 .image {
-  width: 25%;
-  height: 25%;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
 } 
