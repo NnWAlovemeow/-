@@ -90,15 +90,41 @@ tr:nth-child(2) {
   display: block;
 }
 
+.image:hover {
+  width: 230px;
+  height: 230px;
+}
+
 .mid{
   display: flex;
   background-color: white;
   text-align: center;
   padding-top:5%;
-  padding-bottom:20%;
+  padding-bottom:5%;
 }
 
 .elm {
   width: 30%;
   padding-left: 5%;
+}
+
+.programming {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transition: all 0.5s ease;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.programming:hover {
+  width: 230px;
+  height: 230px;
+}
+
+.programming img {
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  border-radius: 30px;
 }
