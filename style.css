@@ -13,14 +13,6 @@
   display: block;
 }
 
-.white-circle {
-  width: 220px;
-  height: 220px;
-  background-color: white;
-  border-radius: 50%;
-  overflow: hidden;
-  z-index: 1;
-}
 
 td {
   border-collapse: collapse;
@@ -98,11 +90,11 @@ tr:nth-child(2) {
   display: block;
 }
 
-.mid {
+.mid{
   display: flex;
   background-color: white;
   text-align: center;
-  padding-top:20%;
+  padding-top:5%;
   padding-bottom:20%;
 }
 
